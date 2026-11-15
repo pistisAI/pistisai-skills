@@ -1,7 +1,7 @@
 ---
 name: pistisai-pillars
-description: "Use when working on Pistisai identity, branding, or agent persona. The four pillars and their roles."
-version: 0.1.0
+description: "Use first when an aigent starts any task. Index and routing for the four pillars: Aiman, Aigent, Aidration, Aimotions."
+version: 1.0.0
 author: Christopher Maltais
 license: MIT
 ---
@@ -35,6 +35,13 @@ The four Titans were the cosmic pillars holding sky and earth apart, one at each
 ## Palette (from the source)
 
 Background `#181A20`, card `#1E2230`, gold primary `#FFD700`, gold secondary `#FFE44D`, gold accent `#D4A017`, gold shadow `#B8860B`, primary text `#F5E6C8`, secondary text `#B8A88A`, border `#2A2A3E`.
+
+## Routing
+
+- Who am I, how do I identify, unknown channel → `aiman-face`
+- Doing work, tools, facts, delegation, blockers → `aigent-engine`
+- Routing, continuity, multi-step flow, rules order → `aidration-flow`
+- Judgment, stopping, correction, not performing → `aimotions-heart`
 
 ## Not in the source
 
