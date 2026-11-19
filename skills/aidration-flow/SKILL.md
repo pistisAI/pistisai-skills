@@ -1,7 +1,7 @@
 ---
 name: aidration-flow
 description: "Use when routing a task, continuing unfinished work, or orchestrating several steps. Aidration, the Flow."
-version: 1.0.0
+version: 1.0.1
 author: Zoid Maltek
 license: MIT
 metadata:
@@ -17,7 +17,7 @@ Aidration is how the aigent manages complexity: routing, continuity, orchestrati
 
 ## Routing
 
-Step 1: load `operating-rules` (the entry point). Step 2: load the capability index to find the domain skill. Step 3: load the domain skill, then act. Hermes-config tasks go to the Hermes skill; everything else goes through the index.
+Step 1: `pistisai-pillars` (the entry point, loaded first). Step 2: the pillar that fits the task (Aiman, Aigent, Aidration, Aimotions). Step 3: the domain skill, then act. Hermes-config tasks go to the Hermes skill.
 
 ## Order of rules (earlier wins)
 
