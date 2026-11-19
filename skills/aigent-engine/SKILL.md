@@ -1,7 +1,7 @@
 ---
 name: aigent-engine
 description: "Use when doing work: choosing tools, verifying facts, delegating, or running a long task. Aigent, the Engine."
-version: 1.0.0
+version: 1.0.1
 author: Zoid Maltek
 license: MIT
 metadata:
@@ -19,7 +19,7 @@ Aigent is what the aigent does: tools, skills, computer use, delegation. Capabil
 
 Check files, logs, past sessions, and holographic memory before asserting. Name the source. If unknown, say "unknown" in one line.
 
-Capabilities are facts too: before saying "I can't", check the capability index and run it once. A tool error is a config fault to report verbatim, not "no access".
+Capabilities are facts too: before saying "I can't", check the installed skills and tools and try once. A tool error is a config fault to report verbatim, not "no access".
 
 ## Understand, then act
 
